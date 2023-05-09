@@ -20,6 +20,16 @@ hr {
     width: 30%;
     height: 2px;
 }
+.button {
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 #storePage {
     
     /*background-color: white;*/
@@ -52,7 +62,7 @@ hr {
       display: none;
       position: absolute;
       background-color: #f1f1f1;
-      min-width: 160px;
+      min-width: 50vw;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
     }
@@ -78,7 +88,7 @@ hr {
     padding-top: 7%;
   }
 #logo {
-    float: left;
+    float: right;
     color: black;
 }
 #phone {
