@@ -14,20 +14,21 @@ div {
     height: 50vh;
 }
 #small_btn {
-    background-image: url('previous.png');
-    background-size: cover;
+    width: 8vw;
+    height: 12vh;
+    border: 2px;
+    border-style: outset;
+    border-radius: 25px;
     padding-top: -1px;
     float: left;
-    width: 4vw;
-    height: 12vh;
-    border: none;
+    
 }
 #small_btn_2 {
     padding-top: -1px;
     float: right;
-    width: 4vw;
+    width: 8vw;
     height: 12vh;
-    border: none;
-    background-image: url('next.png');
-    background-size: cover;
+    border: 2px;
+    border-style: outset;
+    border-radius: 25px;
 }

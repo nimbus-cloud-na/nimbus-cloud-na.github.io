@@ -2,7 +2,8 @@
 body {
   background-image: url("finn\ and\ jake.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  /*background-size: 100vw 100vh;*/
+  background-size: auto;
   text-align: center;
 }
 #images {
@@ -81,7 +82,8 @@ body {
   padding-top: 7%;
 }
 #mainPage button {
-  background-color: transparent;
+  /*background-color: transparent;*/
+  background-color: gray;
   background-repeat: no-repeat;
   border: 2px;
   border-style: outset;

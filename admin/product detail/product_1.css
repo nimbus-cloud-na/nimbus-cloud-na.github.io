@@ -16,18 +16,17 @@ div {
 #small_btn {
     padding-top: -1px;
     float: right;
-    width: 4vw;
+    width: 8vw;
     height: 12vh;
-    border: none;
-    background-image: url('next.png');
-    background-size: cover;
+    border: 2px;
+    border-style: outset;
+    border-radius: 25px;
 }
 #small_btn2 {
-    background-image: url('previous.png');
-    background-size: cover;
-    padding-top: -1px;
+    border: 2px;
+    border-style: outset;
+    border-radius: 25px;
     float: left;
-    width: 4vw;
+    width: 8vw;
     height: 12vh;
-    border: none;
 }
