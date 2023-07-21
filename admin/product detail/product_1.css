@@ -7,7 +7,7 @@ div {
     text-align: center;
     border: 3px solid grey;
     width: 90%;
-    height: 650px;
+    height: 850px;
 }
 #checkOut img {
     width: 40vw;
@@ -25,17 +25,18 @@ div {
 #small_btn {
     padding-top: -1px;
     float: right;
-    width: 8vw;
+    width: 4vw;
     height: 12vh;
-    border: 2px;
-    border-style: outset;
-    border-radius: 25px;
+    border: none;
+    background-image: url('next.png');
+    background-size: cover;
 }
 #small_btn2 {
-    border: 2px;
-    border-style: outset;
-    border-radius: 25px;
+    background-image: url('previous.png');
+    background-size: cover;
+    padding-top: -1px;
     float: left;
-    width: 8vw;
+    width: 4vw;
     height: 12vh;
+    border: none;
 }

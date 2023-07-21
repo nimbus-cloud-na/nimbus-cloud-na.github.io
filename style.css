@@ -2,8 +2,7 @@
 body {
   background-image: url("finn\ and\ jake.jpg");
   background-repeat: no-repeat;
-  /*background-size: 100vw 100vh;*/
-  background-size: auto;
+  background-size: 100vw 100vh;
   text-align: center;
 }
 #images {

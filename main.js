@@ -2,7 +2,7 @@ var button = document.querySelector('button');
 var box = document.getElementById('images');
 let i = 0;
 
-function next() {
+function prvous() {
     switch(i) {
         case 0:
             box.style.backgroundImage = "url('admin/product detail/img 1.jpg')";
@@ -120,7 +120,7 @@ function next() {
     }
        
 }
-function prvous() {
+function next() {
     switch(i) {
         case 0:
             box.style.backgroundImage = "url('admin/product detail/img 9.jpg')";
