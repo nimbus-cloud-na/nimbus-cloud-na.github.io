@@ -7,28 +7,36 @@ div {
     text-align: center;
     border: 3px solid grey;
     width: 90%;
-    height: 650px;
+    height: 850px;
 }
 #checkOut img {
     width: 40vw;
     height: 50vh;
 }
-#small_btn {
-    width: 8vw;
-    height: 12vh;
+#checkOut input {
+    background-color: gray;
+    background-repeat: no-repeat;
     border: 2px;
     border-style: outset;
     border-radius: 25px;
+    cursor: pointer;
+    padding: 15px 32px;
+}
+#small_btn {
+    background-image: url('previous.png');
+    background-size: cover;
     padding-top: -1px;
     float: left;
-    
+    width: 4vw;
+    height: 12vh;
+    border: none;
 }
 #small_btn_2 {
     padding-top: -1px;
     float: right;
-    width: 8vw;
+    width: 4vw;
     height: 12vh;
-    border: 2px;
-    border-style: outset;
-    border-radius: 25px;
+    border: none;
+    background-image: url('next.png');
+    background-size: cover;
 }
