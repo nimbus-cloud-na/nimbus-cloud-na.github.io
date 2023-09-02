@@ -192,8 +192,8 @@ footer div a {
 	text-decoration: none;
 	text-align: center;
 }
-#wrapper p {
-    color: white;
+footer div p {
+    color: black;
 }
 #footer1 {
     float: left;
