@@ -32,105 +32,195 @@
                 </div>
                 <hr style="width: 100%;">
             </div>
+            <div id="logo">
+                <h1>logo</h1>
+            </div>
             <div class="page">
-                <div class="dropdown" style="float: left;">
+                <!--<div class="dropdown" style="float: left;">
                     <button class="dropbtn">Pages</button>
                     <div class="dropdown-content">
                       <a href="#">About Us</a>
                       <a href="#">Contact Us</a>
                       <a href="#">Home</a>
                     </div>
-                </div>
-                <div id="logo">
-                    <h1>logo</h1>
+                </div>-->
+                <div class="dropdown" style="float: left;">
+                    <button id="button" class="dropbtn">Pages</button>
+                    
+                    ​<div id="rad1" class="rad2">
+                        <style>
+                            .dropdown-content a {background-color: #ddd;}
+                            .dropdown .dropdown-content {display: block;}
+                            .dropdown .dropbtn {background-color: #3e8e41;}
+                            .rad2 {visibility: hidden;}
+                        </style>
+                        <div class="dropdown-content">
+                            <a href="#abus">About Us</a>
+                            <a href="#cnus">Contact Us</a>
+                            <a href="#hme">Home</a>
+                        </div>
+                    </div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+                    <script>
+                    var rad1 = document.getElementById('rad1');
+                    function klikaj() {
+                        /*document.getElementById(i).style.visibility='visible';
+                        let j=0;
+                        if(j==1) {
+                            document.getElementById(i).style.visibility='hidden';
+                            j=0;
+
+                        } else {
+                            document.getElementById(i).style.visibility='visible';
+                            j=1;
+                        }*/
+                        rad1.classList.toggle('rad2');
+                    }
+                    document.getElementById('button').addEventListener('click', klikaj);
+                    </script>
+                    
                 </div>
             </div>
             <div id="advertisements">
-                
+                <h2>OFFER 50%</h2>
+                <p>REALLY AWESOME DISCOUNTS THIS JULY</p>
             </div>
 
             <div class="itemId">
+                <br />
+                <br />
+                <br />
+                <br />
                 <h1> welcome to shopping page </h1>
                 <!--<p>&nbsp;</p>-->
                 <br />
+                <div id="sidebar">
+                    <input type="text"  id="search" value="search">
+                    <div id="menubar">
+                        <nav class="menu">
+                          <h2><!-- Title for menuset 1 -->MENU ITEM 1 </h2>
+                          <hr>
+                          <ul>
+                            <!-- List of links under menuset 1 -->
+                            <li><a href="#" title="Link">Link 1</a></li>
+                            <li><a href="#" title="Link">Link 2</a></li>
+                            <li><a href="#" title="Link">Link 3</a></li>
+                            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#"  title="Link">Link 4</a></li>
+                          </ul>
+                        </nav>
+                        <nav class="menu">
+                          <h2>MENU ITEM 2 </h2>
+                          <!-- Title for menuset 2 -->
+                       <hr>
+                        <ul>
+                            <!--List of links under menuset 2 -->
+                            <li><a href="#" title="Link">Link 1</a></li>
+                            <li><a href="#" title="Link">Link 2</a></li>
+                            <li><a href="#" title="Link">Link 3</a></li>
+                            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#" title="Link">Link 4</a></li>
+                        </ul>
+                        </nav>
+                    </div>
+                </div>
             
-              <h2>
-                  packages:
-              </h2>
-              <div id="package1">
-                <div class="item1">
-                    <a href="product detail/product_1.html">
-                        <img src="product detail/img 1.jpg" alt="Package 1">
-                        <p>package1</p>
-                    </a>
-
-                </div>
-                <div class="item2">
-                    <a href="product detail/product_4.html">
-                        <img src="product detail/img 4.jpg" alt="Package 2">
-                        <p>package4</p>
-                    </a>
-
-                </div>
-                <div class="item3">
-                    <a href="product detail/product_7.html">
-                        <img src="product detail/img 7.jpg" alt="Package 3">
-                        <p>package7</p>
-                    </a>
-
-                </div>
+            <br />
+            <br />  
+	    <div id="package1">
                 
+                <ul>
+		    <li>
+			<div class="item1">
+	                    <a href="product detail/product_1.html">
+	                        <img src="product detail/img 1.jpg" alt="Package 1">
+	                        <p>package1</p>
+	                    </a>
 
+	                </div>
+		    </li>
+		    <li>
+			<div class="item2">
+	                    <a href="product detail/product_4.html">
+                	        <img src="product detail/img 4.jpg" alt="Package 2">
+        	                <p>package4</p>
+	                    </a>
 
+	                </div>
+		    </li>
+		    <li>
+			<div class="item3">
+               		     <a href="product detail/product_7.html">
+                	        <img src="product detail/img 7.jpg" alt="Package 3">
+        	                <p>package7</p>
+	                    </a>
+
+  	              </div>
+		    </li>
+		</ul>
+                
             </div>
+              
             <div id="package2">
-                <div class="item1">
-                    <a href="product detail/product_2.html">
-                        <img src="product detail/img 2.jpg" alt="Package 1">
-                        <p>package2</p>
-                    </a>
+                <ul>
+		    <li>
+			<div class="item1">
+                    	    <a href="product detail/product_2.html">
+                	        <img src="product detail/img 2.jpg" alt="Package 1">
+        	                <p>package2</p>
+	                    </a>
 
-                </div>
-                <div class="item2">
-                    <a href="product detail/product_5.html">
-                        <img src="product detail/img 5.jpg" alt="Package 2">
-                        <p>package5</p>
-                    </a>
+	                </div>
+		    </li>
+		    <li>
+			<div class="item2">
+                    	    <a href="product detail/product_5.html">
+                	        <img src="product detail/img 5.jpg" alt="Package 2">
+        	                <p>package5</p>
+	                    </a>
 
-                </div>
-                <div class="item3">
-                    <a href="product detail/product_8.html">
-                        <img src="product detail/img 8.jpg" alt="Package 3">
-                        <p>package8</p>
-                    </a>
+	                </div>
+		    </li>
+		    <li>
+			<div class="item3">
+                    	    <a href="product detail/product_8.html">
+                	        <img src="product detail/img 8.jpg" alt="Package 3">
+        	                <p>package8</p>
+	                    </a>
 
-                </div>
+	                </div>
+		    </li>
+	        </ul>
                 
-                
-
             </div>
+	    
             <div id="package3">
-                <div class="item4">
-                    <a href="product detail/product_3.html">
-                        <img src="product detail/img 3.jpg" alt="Package 1">
-                        <p>package3</p>
-                    </a>
+                <ul>
+		    <li>
+			<div class="item4">
+                    	    <a href="product detail/product_3.html">
+                	        <img src="product detail/img 3.jpg" alt="Package 1">
+        	                <p>package3</p>
+	                    </a>
 
-                </div>
-                <div class="item5">
-                    <a href="product detail/product_6.html">
-                        <img src="product detail/img 6.jpg" alt="Package 2">
-                        <p>package6</p>
-                    </a>
+	                </div>
+		    </li>
+		    <li>
+			<div class="item5">
+                    	    <a href="product detail/product_6.html">
+                	        <img src="product detail/img 6.jpg" alt="Package 2">
+        	                <p>package6</p>
+	                    </a>
 
-                </div>
-                <div class="item6">
-                    <a href="product detail/product_9.html">
-                        <img src="product detail/img 9.jpg" alt="Package 3">
-                        <p>package9</p>
-                    </a>
+	                </div>
+		    </li>
+		    <li>
+			<div class="item6">
+                    	    <a href="product detail/product_9.html">
+                	        <img src="product detail/img 9.jpg" alt="Package 3">
+        	                <p>package9</p>
+	                    </a>
 
-                </div>
+	                </div>
+		    </li>
+		</ul>
                 
             </div>
             </div>
